@@ -1,0 +1,133 @@
+/*navigation*/
+
+nav{
+	background-color: orange;
+	color:white;
+	font-size:25px;
+	font-family:'Source Sans Pro', sans-serif;
+	height:100px;
+}
+nav > span{
+	font-weight:thin;
+	padding:50px;
+	margin:50px;
+}
+nav>span>sup{
+	font-size: 14px;
+}
+nav>span>span{
+	font-weight:bold;
+}
+nav>ul{
+	float:right;
+	display: inline;
+}
+nav>ul>li{
+	display: inline-block;
+	padding-right:80px;
+	}
+nav>ul>li>a{
+	text-decoration: none;
+	color:white;
+	font-size: 14px;
+}
+form{
+	float: right;
+	padding-bottom: 50px
+}
+.orange{
+	height:450px;
+}
+.right-box{
+	float:right;
+	font-size: 40px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	height: 300px;
+	text-align:left;
+	padding-top: 10px;
+	margin:0;
+	position: relative;
+	top: -400px;
+	right: 100px;
+	
+}
+.main{
+	color:orange;
+}
+.web {
+	color:#3399FF;
+}
+.app{
+	color:#3399FF;
+}
+
+p sup{
+	font-size:14px;
+}
+
+.buttontwo{
+	background-color:#3399FF;
+	color:white;
+	height: 30px;
+	border:none;
+	width:40%;
+	}
+.buttonone{
+	background-color: orange;
+	color:white;
+	height:30px;
+	border:none;
+	width:40%;
+	background-color: #3399FF;
+}
+footer{
+	height:100px;
+	background-color: #3399FF;
+}
+@media(max-width:375px){
+	nav{
+		height:120px;
+	}
+	nav>span{
+		margin:0;
+		padding:0;
+		font-size:15px;
+	}
+	nav>span>sup{
+		font-size:10px;
+
+	}
+	nav>ul>li{
+		padding-right:10px;
+
+	}
+	nav>ul>li>a{
+		font-size:10px;
+	}
+	form{
+		padding-right:70px;
+
+	}
+	.orange{
+		height:250px;
+		
+	}
+
+	.right-box{
+	 font-size:20px;
+	 position:relative;
+	 top:-50px;
+	 left:-10px;
+
+}
+	footer{
+		margin-top:150px;
+	}
+	.buttonone, .buttontwo{
+		height:30px;
+		width:35%;
+		font-size:10px;
+	}
+
+}
